@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portofolio-clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <span class="brand"><img src="imgs/Logo.png" alt="logo"></span>
+        <nav id="menue">
+            <a href="#home"><i class="fa-solid fa-house"></i>Home</a>
+            <a href="#about"><i class="fa-solid fa-user"></i>About</a>
+            <a href="#skills"><i class="fa-brands fa-codepen"></i>Skills</a>
+            <a href="#contact"><i class="fa-solid fa-globe"></i>Contact</a>
+        </nav>
+        <span class="bars" id="bars" onclick="myFunction();"><i class="fa-solid fa-list"></i></i></span>
+        <span class="x-mark" id="xmark" style="display: none;" ><i class="fa-solid fa-xmark"></i></span>
+    </header>
+    <section class="self-introduction" id="home">
+        <div class="me">
+            <span class="img"><img src="imgs/Me.png" alt="my picture"></span>
+            <div class="intro1">
+                <p class="iam">Hello! I Am <span>Abdirizak Abadalla</span></p>
+                <p>A designer Who</p>
+                <h3>Judges a book <br>
+                    by its <span>cover</span>...</h3>
+                <p class="last">Because if the cover does not impress you what else can?</p>
+            </div><br>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="intro2">
+            <span class="top">
+                <h2>I'm a Software Engineer.| </h2>
+                <p>Currently, I'm a Software Engineer at <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i>Facebook</a></p>
+            </span>
+            <p>A self-taught UI/UX designer, functioning in the industry for 3+ years now.
+                I make meaningful and delightful digital products that create an equilibrium
+                between user needs and business goals.</p>
+        </div>
+    </section>
+    <section class="skills" id="skills">
+        <h2>My Skills</h2>
+        <div class="carts">
+            <span><i class="fa-brands fa-python"></i>Python</span>
+            <span><i class="fa-brands fa-figma"></i>Figma</span>
+            <span><i class="fa-brands fa-html5"></i>Html</span>
+            <span><i class="fa-brands fa-css3"></i>Css</span>
+            <span><i class="fa-solid fa-image"></i>Photo editing</span>
+            <span><i class="fa-solid fa-code"></i>Game scripting</span>
+            <span><i class="fa-solid fa-terminal"></i>Hack</span>
+
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="social-media">
+            <h2>Find me on :</h2>
+            <span>
+            <a href="https://www.facebook.com/profile.php?id=100079169779779"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://wa.me/+252611430930"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href=" https://instagram.com/cherry_rd5"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://github.com/Abdirizak8899"><i class="fa-brands fa-github"></i></a>
+            </span>
+        </div>
+        <div class="c-me">
+            <h2>Contact me</h2>
+            <form >
+                <input type="name" name="name" id="name" required placeholder="Your name">
+                <input type="email" name="email" id="email" required placeholder="Email address">
+                <textarea name="message" id="msg" cols="30" rows="10" placeholder="Message"></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>

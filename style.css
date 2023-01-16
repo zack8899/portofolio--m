@@ -1,0 +1,313 @@
+/* colors variables */
+
+:root{
+    --navy:#251C31;
+    --text-color: #7127BA;
+}
+
+body{
+    background-color: var(--navy);
+}
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    font-family: 'Poppins';
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #1A0B2E;
+    box-shadow: 0px 6px 22px -3px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    padding:15px 100px;
+    align-items: center;
+    position: fixed;
+    width: 90%;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.brand img{
+    width: 30px;height: 30px;
+}
+.skills{
+    flex-direction: column;
+}
+header nav{
+    display: flex;align-items: center;
+    margin-right: 2em;
+    /* display: none; */
+}
+header nav a{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 2em;
+    transition: 0.7s ease;
+    bottom: 5px;
+    text-transform:capitalize;
+}
+header nav a:hover{
+    color: blanchedalmond;
+}
+header nav a i{
+    margin-right: 9px;
+}
+
+.self-introduction,#about,.skills,.contact{
+    display: flex;flex-wrap: wrap;
+    align-items: center;
+    height: 100vh;
+    background:var(--navy);
+    }
+.me{
+    display: flex;
+    align-items: center;
+    font-family: 'Preahvihear';
+    color: #fff;
+    margin-left: 9em;
+}
+.img{
+    background: radial-gradient(50% 50% at 50% 50%, #763CAC 0%, rgba(50, 15, 133, 0) 100%);
+}
+.intro1 .iam{
+    margin-bottom: 2em;
+}
+.intro1 .iam span{
+    color: var(--text-color);
+}
+.intro1 h3{
+    font-family: 'Preahvihear';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 63px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+.intro1 h3 span{
+    font-weight: 400;
+    font-size: 50px;
+    border: 1px solid #7127BA;
+    transform: rotate(-9.74deg);
+    border-radius: 30px;
+    padding: 0.2em;
+    color: #7127BA;
+    margin-left: 30px;
+}
+.top {
+    font-family: 'Preahvihear';
+    color: #FFFFFF;
+}
+.top h2 {
+    font-family: 'Preahvihear';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 90px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;    
+    color: #FFFFFF;   
+}
+.top p a{
+    color: #1877F2;
+    margin-left: 4px;
+    text-decoration: none;
+}
+.top p a i{
+    background: #fff;
+    margin-right: 4px;
+    border-radius: 50%;
+}
+.intro2{
+    margin-left: 9em;
+}
+.intro2 p{
+    color: #FFFFFF;
+    width: 22em;
+    margin-top: 30px;
+    font-family: 'Preahvihear';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+}
+.skills{
+    color: #FFFFFF;
+    display: flex;flex-direction: column;
+    height: 100vh;align-items: center;justify-content: center;
+}
+.skills h2{
+    font-family: 'Preahvihear';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 63px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;   
+}
+.carts{
+    display: flex;flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.skills span{
+    background-color:#7127BA;
+    margin-right: 2em;
+    padding: 16px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;justify-content: center;
+    width: 11em;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    transition: 0.4s ease;
+    margin-top: 30px;
+}
+.skills span i {
+    margin-right: 6px;
+    font-size: 2em;
+}
+.skills span:hover{
+    transform: translateY(5px);
+    cursor: pointer;
+}
+.contact{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.social-media{
+    display: flex;flex-direction: row;
+    align-items: center;
+}
+.social-media h2 {
+    margin-right: 11px;
+}
+.social-media a{
+    border-radius: 50%;
+    padding: 16px;
+    color: #FFFFFF;
+    margin-right: 5px;
+    background: #7127BA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.c-me{
+    display: flex;flex-direction: column;align-items: center;justify-content: center;
+    margin-top: 30px;
+}
+.c-me form{
+    display: flex;flex-direction: column;align-items: center;justify-content: center;
+}
+
+.c-me form input,textarea{
+    background: var(--navy);
+    padding: 16px;
+    border-radius: 7px;
+    border: #763CAC 2px solid;outline: none;resize: none;width: 19em;
+    margin-top: 15px;
+}
+.c-me form button {
+    background: #763CAC;
+    color:#fff;
+    border: none;
+    outline: none;
+    padding: 13px;
+    width: 11em;
+    border-radius: 4px;
+    font-size: 1em;
+    margin-top: 20px;
+}
+.bars {
+    margin-right: 4em;
+    display: none;
+}
+.bars:hover{
+    cursor: pointer;
+}
+
+@media (max-width: 1020px){
+    header nav{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    header nav a{
+        margin-bottom: 20px;
+    }
+    .bars{
+        display: block;
+    }
+    .me{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+.social-media span{
+    display: flex;flex-direction: row;
+}
+@media (max-width:767px){
+ .me{
+    margin-left: 2em;
+ }
+ header nav{
+    display: none;
+ }
+ .intro2{
+    margin-left: 2em;
+}
+ .intro2 h2{
+    font-size: 25px;
+ }
+ .intro2 p{
+    font-size: 20px;
+ }
+}
+@media (max-width: 360px){
+    header nav{
+        display: none;
+    }
+    .intro1{
+        width: 22em;
+    }
+    .intro2{
+        margin-left: 3em;
+    }
+    .skills{
+        flex-direction: column;
+    }
+    .carts{
+        flex-flow: row wrap;
+    }
+    .social-media{
+        flex-direction: column;align-items: center;
+        justify-content: center;
+    }
+    .social-media h2{
+        margin-left: 2em;
+        margin-right: 3em;
+    }
+    .social-media span{
+        display: flex;flex-direction: row;
+    }
+    .self-introduction{
+        margin-top: 5em;
+    }
+}

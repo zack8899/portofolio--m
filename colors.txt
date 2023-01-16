@@ -1,0 +1,4 @@
+:root{
+    --navy:#251C31;
+    --text-color: #7127BA;
+}
